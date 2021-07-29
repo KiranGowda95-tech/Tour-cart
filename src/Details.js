@@ -22,7 +22,7 @@ const Details = () => {
     <div>
       <h1>this is detail page :{id}</h1>
       <p>{}</p>
-      <Link to="/">home</Link>
+      <Link to="/" className="detail-btn">home</Link>
     </div>
   );
 };
